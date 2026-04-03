@@ -193,3 +193,78 @@ body {
 .redes a:hover {
   color: #ffffff;
 }
+
+.redes a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+
+  .header {
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 15px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .logo img {
+    height: 35px;
+  }
+
+  .logo h1 {
+    font-size: 18px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .banner {
+    padding: 80px 20px;
+    font-size: 18px;
+  }
+
+  .info {
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  .lugares {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .sobre-conteudo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sobre-texto,
+  .sobre-imagem {
+    width: 100%;
+  }
+
+  .sobre-imagem img {
+    max-width: 250px;
+    margin: auto;
+  }
+
+  .formulario {
+    padding: 30px 15px;
+  }
+
+  .formulario form {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 15px;
+  }
+
+}
