@@ -9,18 +9,17 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Yudy Samuell Magalhães Ramos
+- Matricula: 90627
+- Proposta de projeto escolhida: Guia turístico sobre o Japão
+- Breve descrição sobre seu projeto: Este projeto consiste no desenvolvimento de um site turístico sobre o Japão. O site apresenta informações sobre destinos como Tóquio, Kyoto e Osaka, além de conter um layout moderno com uso de Flexbox, Grid e Media Queries para adaptação em diferentes dispositivos.
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Desktop](images/print%20desktop.png)
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
-
+![Mobile](images/print%20mobile.png)
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
