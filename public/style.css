@@ -21,12 +21,11 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 .logo img {
-  width: 40px;
-  height: 40px;
+  height: 60px;
+  width: auto;
 }
 
 .menu ul {
@@ -127,28 +126,70 @@ body {
 }
 
 .formulario {
-  padding: 20px;
+  background: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.formulario h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
 }
 
 .formulario form {
+  max-width: 400px;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
-.formulario input,
-.formulario textarea {
-  padding: 10px;
+.formulario input {
+  padding: 12px;
+  border-radius: 8px;
   border: 1px solid #ccc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.formulario input:focus {
+  border-color: #b22222;
+  outline: none;
 }
 
 .formulario button {
-  padding: 10px;
+  padding: 12px;
+  background: #b22222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.formulario button:hover {
+  background: #8b0000;
 }
 
 .footer {
   background: #111;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+}
+
+.redes {
+  margin-top: 10px;
+}
+
+.redes a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.redes a:hover {
+  color: #ffffff;
 }
